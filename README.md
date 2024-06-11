@@ -223,6 +223,9 @@ width="80%"></p>
 
 
 ## <a name="sr-caco-2"> SR-CACO-2 presentation </a>:
+The file [share-visualization-30-samples-test.zip](https://huggingface.co/sbelharbi/sr-caco-2/resolve/main/share-visualization-30-samples-test.zip?download=true) contains visual predictions on the test set.
+
+
 <p align="center"><img src="doc/nutrition-label.png" alt="nutrition label 
 for SR-CACO-2 dataset" width="80%"></p>
 
