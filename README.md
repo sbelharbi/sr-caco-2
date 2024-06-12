@@ -2,7 +2,8 @@
 
 
 by **Soufiane Belharbi<sup>1</sup>, Mara KM Whitford<sup>2,3</sup>, 
-Phuong Hoang<sup>2</sup>, Shakeeb Murtaza<sup>1</sup>, Luke McCaffrey<sup>2,3,4</sup> Eric Granger<sup>1</sup>**
+Phuong Hoang<sup>2</sup>, Shakeeb Murtaza<sup>1</sup>, Luke McCaffrey<sup>2,
+3,4</sup>, Eric Granger<sup>1</sup>**
 
 
 <sup>1</sup>  LIVIA, Dept. of Systems Engineering, ETS Montreal, Canada
