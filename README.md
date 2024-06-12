@@ -91,7 +91,7 @@ perform the above described steps.
 ## <a name='reqs'> Install</a>:
 
 ```bash
-# Create a virtual env. env with conda
+# Create a virtual env.
 ./create_env.sh NAME_OF_THE_VIRTUAL_ENV
 ```
 
