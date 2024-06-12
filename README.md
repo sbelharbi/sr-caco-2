@@ -59,7 +59,7 @@ available: https://github.com/sbelharbi/sr-caco-2.
 ```
 @article{belharbi24-sr-caco-2,
   title={SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution},
-  author={Belharbi, S. and Hoang, P. and Whitford, M. and Murtaza, M. and McCaffrey, L. and Granger, E.},
+  author={Belharbi, S. and Hoang, P. and Whitford, M. and Murtaza, S. and McCaffrey, L. and Granger, E.},
   journal={CoRR},
   volume={abs/xxxx.xxxxx},
   year={2024}
