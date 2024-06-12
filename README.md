@@ -64,24 +64,9 @@ available: https://github.com/sbelharbi/sr-caco-2.
 * [How to request the SR-CACO-2 dataset?](#req-ds)
 * [Install](#reqs)
 * [Datasets](#datasets)
-* [Data preparation](#prep-data)
 * [Run code](#run)
 * [Pretrained weights (evaluation)](#weights)
 * [SR-CACO-2 presentation](#sr-caco-2)
-
-<!-- ## <a name='overview'> Overview</a>: -->
-
-<!-- <img src="doc/demo.png" alt="Demo" width="600">
-<img src="doc/codebook-aus.png" alt="Codebook AUs" width="900">
-<img src="doc/method.png" alt="Method" width="600">
-<img src="doc/cam-cl-perfs.png" alt="CAM Classification performance"
-width="900">
-<img src="doc/att-perfs.png" alt="Attention performance" width="600">
-<img src="doc/demo-faces.png" alt="Demo faces" width="600">
-<img src="doc/attention-maps.png" alt="Attention maps" width="600">
-<img src="doc/cam-maps.png" alt="CAM maps" width="600">
-<img src="doc/ablation-layer.png" alt="Ablation layer" width="600">
-<img src="doc/ablation-lambda.png" alt="Ablation lambda" width="600"> -->
 
 
 ## <a name='req-ds'> How to request the SR-CACO-2 dataset? </a>:
@@ -108,6 +93,11 @@ perform the above described steps.
 # Create a virtual env. env with conda
 ./create_env.sh NAME_OF_THE_VIRTUAL_ENV
 ```
+
+## <a name="datasets"> Download datasets </a>:
+
+Once you download the datasets, you need to adjust the paths in
+[get_root_datasets()](dlib/utils/utils_config.py).
 
 ## <a name="run"> Run code </a>:
 
