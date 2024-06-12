@@ -17,7 +17,7 @@ Canada
 
 
 
- [[v1.0.0]](https://github.com/sbelharbi/sr-caco-2/releases/tag/v1.0.0) [![DOI](https://zenodo.org/badge/810271648.svg)](https://zenodo.org/doi/10.5281/zenodo.11617172)
+[![DOI](https://zenodo.org/badge/810271648.svg)](https://zenodo.org/doi/10.5281/zenodo.11617172) [[v1.0.0]](https://github.com/sbelharbi/sr-caco-2/releases/tag/v1.0.0)
 
 
 
