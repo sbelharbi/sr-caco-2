@@ -63,7 +63,7 @@ available: https://github.com/sbelharbi/sr-caco-2.
 <!-- * [Overview](#overview) -->
 * [How to request the SR-CACO-2 dataset?](#req-ds)
 * [Install](#reqs)
-* [Datasets](#datasets)
+* [Dataset path](#datasets)
 * [Run code](#run)
 * [Pretrained weights (evaluation)](#weights)
 * [SR-CACO-2 presentation](#sr-caco-2)
@@ -94,9 +94,9 @@ perform the above described steps.
 ./create_env.sh NAME_OF_THE_VIRTUAL_ENV
 ```
 
-## <a name="datasets"> Download datasets </a>:
+## <a name="datasets"> Dataset path </a>:
 
-Once you download the datasets, you need to adjust the paths in
+Once you download the dataset, you need to adjust the paths in
 [get_root_datasets()](dlib/utils/utils_config.py).
 
 ## <a name="run"> Run code </a>:
