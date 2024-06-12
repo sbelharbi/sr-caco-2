@@ -102,7 +102,7 @@ Once you download the dataset, you need to adjust the paths in
 
 ## <a name="run"> Run code </a>:
 
-* Train `SwinIR`, `CELL2`, `X8`:
+* E.g.: Train `SwinIR` method, `CELL2`, `X8`:
 ```shell
   #!/usr/bin/env bash
 
