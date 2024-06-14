@@ -17,7 +17,7 @@ Canada
 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.09168-b31b1b.svg)](https://arxiv.org/abs/2406.09168)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/sbelharbi/sr-caco-2)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sr--caco--2-yellow)](https://huggingface.co/sbelharbi/sr-caco-2)
 [![DOI](https://zenodo.org/badge/810271648.svg)](https://zenodo.org/doi/10.5281/zenodo.11617172) [[v1.0.0]](https://github.com/sbelharbi/sr-caco-2/releases/tag/v1.0.0)
 
 
