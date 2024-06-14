@@ -1,4 +1,4 @@
-# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution](https://arxiv.org/pdf/xxxx.xxxxx.pdf)
+# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution](https://arxiv.org/pdf/2406.09168.pdf)
 
 
 by **Soufiane Belharbi<sup>1</sup>, Mara KM Whitford<sup>2,3</sup>,
@@ -61,7 +61,7 @@ available: https://github.com/sbelharbi/sr-caco-2.
   title={SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution},
   author={Belharbi, S. and Hoang, P. and Whitford, M. and Murtaza, S. and McCaffrey, L. and Granger, E.},
   journal={CoRR},
-  volume={abs/xxxx.xxxxx},
+  volume={abs/2406.09168},
   year={2024}
 }
 ```
