@@ -68,7 +68,7 @@ available: https://github.com/sbelharbi/sr-caco-2.
 
 ## Content:
 <!-- * [Overview](#overview) -->
-* [How to request the SR-CACO-2 dataset?](#req-ds)
+* [SR-CACO-2 dataset: LICENSE/download](#download-ds)
 * [Install](#reqs)
 * [Dataset path](#datasets)
 * [Run code](#run)
@@ -76,21 +76,14 @@ available: https://github.com/sbelharbi/sr-caco-2.
 * [SR-CACO-2 presentation](#sr-caco-2)
 
 
-## <a name='req-ds'> How to request the SR-CACO-2 dataset? </a>:
-If you are an academic, (i.e., a person with a permanent position at a research
-institute or university, e.g. a professor, but not a
-Post-Doc or a PhD/PG/UG student), please:
+## <a name='download-ds'> SR-CACO-2 dataset: LICENSE/download </a>:
+**THIS SR-CACO-2 DATASET IS LICENSED UNDER CREATIVE COMMONS
+ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL LICENSE (CC BY-NC-SA 4.0).
+[HTTPS://CREATIVECOMMONS.ORG/LICENSES/BY-NC-SA/4.0/](HTTPS://CREATIVECOMMONS.ORG/LICENSES/BY-NC-SA/4.0/)**
 
-i) fill in this [EULA](./doc/EULA.pdf);
+<p align="center"><img src="doc/LICENSE.png" alt="outline" width="10%"></p>
 
-ii) use your official academic email (as data cannot be released to personal emails);
-
-iii) send an email to luke.mccaffrey@mcgill.ca with subject: SR-CACO-2 request by academic;
-
-iv) include in the email the above signed EULA, the reason why you require access to the SR-CACO-2 database, and your official academic website
-
-In the case of Post-Docs or Ph.D. students: your supervisor/advisor should
-perform the above described steps.
+**[SR-CACO-2 download link](https://drive.google.com/drive/folders/1yHh_EesWH_jGCkm3HkARLHRPnscj-0OF?usp=sharing)**.
 
 
 
