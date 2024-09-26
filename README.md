@@ -57,11 +57,10 @@ available: https://github.com/sbelharbi/sr-caco-2.
 
 ## Citation:
 ```
-@article{belharbi24-sr-caco-2,
+@inproceedings{belharbi24-sr-caco-2,
   title={SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution},
   author={Belharbi, S. and Whitford, M.K.M. and Hoang, P. and Murtaza, S. and McCaffrey, L. and Granger, E.},
-  journal={CoRR},
-  volume={abs/2406.09168},
+  booktitle={NeurIPS},
   year={2024}
 }
 ```
