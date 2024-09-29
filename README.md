@@ -102,15 +102,15 @@ Once you download the dataset, you need to adjust the paths in
 
 * E.g.: Train `SwinIR` method, `CELL2`, `X8`:
 ```shell
-  #!/usr/bin/env bash
+#!/usr/bin/env bash
 
-  # Activate your virtual env.
+# Activate your virtual env.
 
-  # ==============================================================================
-  cudaid=$1
-  export CUDA_VISIBLE_DEVICES=$cudaid
+# ==============================================================================
+cudaid=$1
+export CUDA_VISIBLE_DEVICES=$cudaid
 
-  export OMP_NUM_THREADS=50
+export OMP_NUM_THREADS=50
 python main.py \
        --task super-resolution \
        --scale 8 \
