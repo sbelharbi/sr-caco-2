@@ -221,6 +221,9 @@ The file [share-visualization-30-samples-test.zip](https://huggingface.co/sbelha
 <p align="center"><img src="doc/nutrition-label.png" alt="nutrition label
 for SR-CACO-2 dataset" width="80%"></p>
 
+<p align="center"><img src="doc/object-analysis.png" alt="object analysis
+for SR-CACO-2 dataset" width="80%"></p>
+
 <p align="center"><img src="doc/patch-demo.png" alt="Patches for SR-CACO-2
 dataset" width="80%"></p>
 
