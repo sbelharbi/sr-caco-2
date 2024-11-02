@@ -36,6 +36,7 @@ GRL = 'GRL'  # https://arxiv.org/pdf/2303.00748.pdf
 ENLCN = 'ENLCN'  # https://arxiv.org/pdf/2201.03794.pdf
 ACT = 'ACT'  # https://arxiv.org/pdf/2203.07682.pdf
 NLSN = 'NLSN'  # https://openaccess.thecvf.com/content/CVPR2021/papers
+EDSR_LIIF = 'EDSR_LIIF'  # https://arxiv.org/pdf/2012.09161
 
 # Iterative sampling
 SRFBN = 'SRFBN'  # https://arxiv.org/pdf/1903.09814.pdf
@@ -60,6 +61,7 @@ MODELS = [SWINIR,
           ENLCN,
           ACT,
           NLSN,
+          EDSR_LIIF,
           SRFBN,
           DBPN,
           MSLAPSR,
@@ -148,6 +150,7 @@ GRL_MTH = 'GRL'
 ENLCN_MTH = 'ENLCN'
 ACT_MTH = 'ACT'
 NLSN_MTH = 'NLSN'
+EDSR_LIIF_MTH = 'EDSR_LIIF'
 
 SRFBN_MTH = 'SRFBN'
 DBPN_MTH = 'DBPN'
@@ -159,7 +162,7 @@ PROSR_MTH = 'PROSR'
 METHODS = [DSRSPLINES_MTH, CSRCNN_MTH, SRCNN_MTH,
            VDSR_MTH, MEMNET_MTH, DRRN_MTH,
            DFCAN_MTH, SWINIR_MTH, OMNISR_MTH, GRL_MTH, ENLCN_MTH,
-           ACT_MTH, NLSN_MTH,
+           ACT_MTH, NLSN_MTH, EDSR_LIIF_MTH,
            SRFBN_MTH, DBPN_MTH,
            MSLAPSR_MTH, PROSR_MTH
            ]
@@ -179,6 +182,7 @@ NETTYPE_METHOD = {
     ENLCN: ENLCN_MTH,
     ACT: ACT_MTH,
     NLSN: NLSN_MTH,
+    EDSR_LIIF: EDSR_LIIF_MTH,
     SRFBN: SRFBN_MTH,
     DBPN: DBPN_MTH,
     MSLAPSR: MSLAPSR_MTH,

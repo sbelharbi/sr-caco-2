@@ -1,4 +1,4 @@
-# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution (NeurIPS2024)](https://arxiv.org/pdf/2406.09168.pdf)
+# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution](https://arxiv.org/pdf/2406.09168.pdf)
 
 
 by **Soufiane Belharbi<sup>1</sup>, Mara KM Whitford<sup>2,3</sup>,
@@ -26,32 +26,35 @@ Canada
 
 
 ## Abstract
-Confocal fluorescence microscopy is one of the most accessible and widely used
-imaging techniques for the study of biological processes at the cellular and
-subcellular levels. Scanning confocal microscopy allows the capture of
-high-quality images from thick three-dimensional (3D) samples, yet suffers from
-well-known limitations such as photobleaching and phototoxicity of specimens
-caused by intense light exposure, which limits its use in some applications,
-especially for living cells. Cellular damage can be alleviated by changing
-imaging parameters to reduce light exposure, often at the expense of image
-quality. Machine/deep learning methods for single-image super-resolution (SISR)
-can be applied to restore image quality by upscaling lower-resolution (LR)
-images to produce high-resolution images (HR). These SISR methods have been
-successfully applied to photo-realistic images due partly to the abundance of
-publicly available data. In contrast, the lack of publicly available data
-partly limits their application and success in scanning confocal microscopy.
-In this paper, we introduce a large scanning confocal microscopy dataset named
-SR-CACO-2 that is comprised of low- and high-resolution image pairs marked for
-three different fluorescent markers. It allows the evaluation of performance of
-SISR methods on three different upscaling levels (X2, X4, X8). SR-CACO-2
-contains the human epithelial cell line Caco-2 (ATCC HTB-37), and it is
-composed of 22 tiles that have been translated in the form of 9,937 image
-patches for experiments with SISR methods. Given the new SR-CACO-2 dataset,
-we also provide benchmarking results for 15 state-of-the-art methods that are
-representative of the main SISR families. Results show that these methods have
-limited success in producing high-resolution textures, indicating that SR-CACO-2
-represents a challenging problem. Our dataset, code and pretrained weights are
-available: https://github.com/sbelharbi/sr-caco-2.
+Confocal fluorescence microscopy is one of the most accessible and widely used 
+imaging techniques for the study of biological processes at the cellular and 
+subcellular levels. Scanning confocal microscopy allows the capture of 
+high-quality images from thick three-dimensional (3D) samples, yet suffers from 
+well-known limitations such as photobleaching and phototoxicity of specimens 
+caused by intense light exposure, which limits its use in some applications, 
+especially for living cells. Cellular damage can be alleviated by changing 
+imaging parameters to reduce light exposure, often at the expense of image 
+quality. Machine/deep learning methods for single-image super-resolution 
+(SISR) can be applied to restore image quality by upscaling lower-resolution 
+(LR) images to produce high-resolution images (HR). These SISR methods have 
+been successfully applied to photo-realistic images due partly to the abundance 
+of publicly available datasets. In contrast, the lack of publicly available 
+data partly limits their application and success in scanning confocal 
+microscopy. In this paper, we introduce a large scanning confocal microscopy 
+dataset named SR-CACO-2 that is comprised of low- and high-resolution image pairs 
+marked for three different fluorescent markers. It allows to evaluate the 
+performance of SISR methods on three different upscaling levels 
+(X2, x34, x8). SR-CACO-2 contains the human epithelial cell line Caco-2 
+(ATCC HTB-37), and it is composed of 2,200 unique images, captured with four 
+resolutions and three markers, that have been translated in the form of 9,937 
+patches for experiments with SISR methods. Given the new SR-CACO-2 dataset, 
+we also provide benchmarking results for 16 state-of-the-art methods that are 
+representative of the main SISR families. Results show that these methods have 
+limited success in producing high-resolution textures, indicating that SR-CACO-2 
+represents a challenging problem. The dataset is released under a Creative 
+Commons license (CC BY-NC-SA 4.0), and it can be accessed freely. Our dataset, 
+code and pretrained weights for SISR methods are publicly available
+: https://github.com/sbelharbi/sr-caco-2.
 
 **Code: Pytorch 2.0.0**
 
@@ -102,15 +105,15 @@ Once you download the dataset, you need to adjust the paths in
 
 * E.g.: Train `SwinIR` method, `CELL2`, `X8`:
 ```shell
-#!/usr/bin/env bash
+  #!/usr/bin/env bash
 
-# Activate your virtual env.
+  # Activate your virtual env.
 
-# ==============================================================================
-cudaid=$1
-export CUDA_VISIBLE_DEVICES=$cudaid
+  # ==============================================================================
+  cudaid=$1
+  export CUDA_VISIBLE_DEVICES=$cudaid
 
-export OMP_NUM_THREADS=50
+  export OMP_NUM_THREADS=50
 python main.py \
        --task super-resolution \
        --scale 8 \
@@ -192,13 +195,13 @@ python main.py \
 ```
 
 ## <a name="weights"> Pretrained weights (evaluation) </a>:
-We provide the weights for all the models (135 models: 15 methods x 3 cells
+We provide the weights for all the models (144 models: 16 methods x 3 cells
 x 3 scales). Weights can be found at [Hugging Face](https://huggingface.co/sbelharbi/sr-caco-2) in the file [shared-trained-models.tar.gz](https://huggingface.co/sbelharbi/sr-caco-2/resolve/main/shared-trained-models.tar.gz?download=true).
 To run a single case, e.g. for `ACT` method, `CELL0`, `X2`:
 ```bash
 python eval.py --cudaid 0 --exp_path $root/shared-trained-models/SURVEY_ABLATIONS/super-resolution/ACT/caco2_train_X_2_in_256_out_512_cell_CELL0/id_12_21_2023_07_59_15_641499__1617383-tsk_super-resolution-x_2-netG_ACT-sd_0-l2_yes-ssim_yes
 ```
-To run all 135 cases:
+To run all 144 cases:
 ```bash
 ./eval_all.sh 0
 ```

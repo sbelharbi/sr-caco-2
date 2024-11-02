@@ -36,6 +36,19 @@ def define_G(args):
                    upsampler=opt_net[f'{nt}_upsampler'],
                    resi_connection=opt_net[f'{nt}_resi_connection'])
 
+    elif net_type == constants.EDSR_LIIF:
+        from dlib.models.network_edsr_liif import EDSR_LIIF as net
+
+        netG = net(in_chans=opt_net[f'{nt}_in_chans'],
+                   n_resblocks=opt_net[f'{nt}_n_resblocks'],
+                   n_feats=opt_net[f'{nt}_n_feats'],
+                   scale=opt_net[f'{nt}_upscale'],
+                   rgb_range=opt_net[f'{nt}_img_range'],
+                   local_ensemble=True,
+                   feat_unfold=True,
+                   cell_decode=True
+                   )
+
     elif net_type == constants.ACT:
         from dlib.models.network_act import ACT as net
 

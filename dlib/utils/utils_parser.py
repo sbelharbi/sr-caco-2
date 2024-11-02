@@ -317,6 +317,27 @@ def get_args(args: dict, net_type: str):
         parser.add_argument(f'--{nt}_init_gain', type=float, default=None,
                             help='SwinIR: Weight init. gain.')
 
+    elif net_type == constants.EDSR_LIIF:
+        # EDSR_LIIF
+        nt = constants.EDSR_LIIF
+        nt = safe_str_var(nt)
+
+        parser.add_argument(f'--{nt}_n_feats', type=int, default=None,
+                            help='EDSR_LIIF: n_feats.')
+        parser.add_argument(f'--{nt}_img_range', type=float, default=None,
+                            help='EDSR_LIIF: image range.')
+        parser.add_argument(f'--{nt}_res_scale', type=float, default=None,
+                            help='EDSR_LIIF: residual scale.')
+        parser.add_argument(f'--{nt}_n_resblocks', type=int, default=None,
+                            help='EDSR_LIIF: n_resblocks.')
+
+        parser.add_argument(f'--{nt}_init_type', type=str, default=None,
+                            help='EDSR_LIIF: Weights init. type.')
+        parser.add_argument(f'--{nt}_init_bn_type', type=str, default=None,
+                            help='EDSR_LIIF: BN init. type.')
+        parser.add_argument(f'--{nt}_init_gain', type=float, default=None,
+                            help='EDSR_LIIF: Weight init. gain.')
+
     elif net_type == constants.ACT:
         # ACT
         nt = constants.ACT
@@ -945,6 +966,10 @@ def get_args(args: dict, net_type: str):
         zz = [int(z) for z in zz]
         args['netG'][f'{nt}_num_heads'] = zz
 
+    elif net_type == constants.EDSR_LIIF:
+        args['netG'][f'{nt}_upscale'] = args['scale']
+        args['netG'][f'{nt}_in_chans'] = args['n_channels']
+
     elif net_type == constants.ACT:
         args['netG'][f'{nt}_upscale'] = args['scale']
         args['netG'][f'{nt}_in_chans'] = args['n_channels']
@@ -1001,7 +1026,6 @@ def get_args(args: dict, net_type: str):
     elif net_type == constants.SRCNN:
         args['netG'][f'{nt}_in_chans'] = args['n_channels']
 
-
     elif net_type == constants.DSRSPLINES:
         args['netG'][f'{nt}_upscale'] = args['scale']
         args['netG'][f'{nt}_in_planes'] = args['n_channels']
@@ -1009,7 +1033,6 @@ def get_args(args: dict, net_type: str):
     elif net_type == constants.CSRCNN:
         args['netG'][f'{nt}_upscale'] = args['scale']
         args['netG'][f'{nt}_in_planes'] = args['n_channels']
-
 
     if args['t0'] is None:
         args['t0'] = dt.datetime.now()

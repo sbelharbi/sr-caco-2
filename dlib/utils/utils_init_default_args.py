@@ -34,6 +34,21 @@ def init_net_g(netG: dict, args: dict) -> dict:
         out[f'{nt}_init_bn_type'] = constants.INIT_BN_CONSTANT
         out[f'{nt}_init_gain'] = 1.
 
+    elif netG['net_type'] == constants.EDSR_LIIF:
+
+        out[f'{nt}_upscale'] = args['scale']
+        out[f'{nt}_in_chans'] = args['n_channels']
+
+        out[f'{nt}_n_feats'] = 64
+        out[f'{nt}_img_range'] = 1.0
+
+        out[f'{nt}_res_scale'] = 1.
+        out[f'{nt}_n_resblocks'] = 16
+
+        out[f'{nt}_init_type'] = constants.INIT_W_DEFAULT
+        out[f'{nt}_init_bn_type'] = constants.INIT_BN_CONSTANT
+        out[f'{nt}_init_gain'] = 1.
+
     elif netG['net_type'] == constants.ACT:
 
         out[f'{nt}_upscale'] = args['scale']
@@ -277,7 +292,6 @@ def init_net_g(netG: dict, args: dict) -> dict:
         out[f'{nt}_inner_channel'] = 32
         out[f'{nt}_res_blocks'] = 3
 
-
         # small cnn or unet.
         out[f'{nt}_net_type'] = constants.NET_TYPE_UNET
         out[f'{nt}_use_global_residual'] = True
@@ -285,6 +299,9 @@ def init_net_g(netG: dict, args: dict) -> dict:
         out[f'{nt}_init_type'] = constants.INIT_W_DEFAULT
         out[f'{nt}_init_bn_type'] = constants.INIT_BN_CONSTANT
         out[f'{nt}_init_gain'] = 1.
+
+    else:
+        raise NotImplementedError(netG['net_type'])
 
 
     return out

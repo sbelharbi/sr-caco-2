@@ -546,7 +546,6 @@ if __name__ == '__main__':
     b = 1
     x = torch.rand(b, c, 8, 8).to(device)
 
-
     # Large, 20.13 M
     model = ACT(upscale=scale,
                 in_chans=c,
