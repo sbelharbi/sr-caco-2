@@ -1,4 +1,4 @@
-# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution](https://arxiv.org/pdf/2406.09168.pdf)
+# [SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution (NeurIPS2024)](https://arxiv.org/pdf/2406.09168.pdf)
 
 
 by **Soufiane Belharbi<sup>1</sup>, Mara KM Whitford<sup>2,3</sup>,
@@ -241,3 +241,13 @@ dataset" width="80%"></p>
 
 <p align="center"><img src="doc/prediction.png" alt="SR predictions for
 SR-CACO-2 dataset" width="80%"></p>
+
+<p align="center"><img src="doc/cell-segmentation.png" alt="Cell 
+segmentation over scaled images using SISR methods over
+SR-CACO-2 dataset" width="80%"></p>
+
+<p align="center"><img src="doc/cell-detection.png" alt="CEll detection 
+performance over SR-CACO-2 dataset" width="80%"></p>
+
+<p align="center"><img src="doc/under-over-cell-segmentation.png" 
+alt="Under/over cell segmentation performance over SR-CACO-2 dataset" width="80%"></p>
