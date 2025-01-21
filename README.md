@@ -71,7 +71,7 @@ code and pretrained weights for SISR methods are publicly available
 
 ## Content:
 <!-- * [Overview](#overview) -->
-* [SR-CACO-2 dataset: LICENSE/download](#download-ds)
+* [SR-CACO-2 dataset: LICENSE/download](#download-sr-caco-2)
 * [Install](#reqs)
 * [Dataset path](#datasets)
 * [Run code](#run)
@@ -79,7 +79,7 @@ code and pretrained weights for SISR methods are publicly available
 * [SR-CACO-2 presentation](#sr-caco-2)
 
 
-## <a name='download-ds'> SR-CACO-2 dataset: LICENSE/download </a>:
+## <a name='download-sr-caco-2'> SR-CACO-2 dataset: LICENSE/download </a>:
 **THIS SR-CACO-2 DATASET IS LICENSED UNDER CREATIVE COMMONS
 ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL LICENSE (CC BY-NC-SA 4.0).
 [HTTPS://CREATIVECOMMONS.ORG/LICENSES/BY-NC-SA/4.0/](HTTPS://CREATIVECOMMONS.ORG/LICENSES/BY-NC-SA/4.0/)**
