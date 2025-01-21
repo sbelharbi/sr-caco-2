@@ -15,11 +15,10 @@ Phuong Hoang<sup>2</sup>, Shakeeb Murtaza<sup>1</sup>, Luke McCaffrey<sup>2,
 <sup>4</sup>  Gerald Bronfman Dept. of Oncology, McGill University, Montreal,
 Canada
 
-[![Page](https://img.shields.io/badge/Webpage-orange)](https://sbelharbi.github.io/sr-caco-2)
-[![arXiv](https://img.shields.io/badge/arXiv-2406.09168-b31b1b.svg)](https://arxiv.org/pdf/2406.09168)
+[![Download](https://img.shields.io/badge/Download-blue?logo=openaccess)](https://github.com/sbelharbi/sr-caco-2?tab=readme-ov-file#-sr-caco-2-dataset-licensedownload-)
+[![arXiv](https://img.shields.io/badge/arXiv-2406.09168-b31b1b.svg?logo=arxiv&logoColor=B31B1B)](https://arxiv.org/pdf/2406.09168)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weights-yellow)](https://huggingface.co/sbelharbi/sr-caco-2)
 [![DOI](https://zenodo.org/badge/810271648.svg)](https://zenodo.org/doi/10.5281/zenodo.11617172) [[v1.0.0]](https://github.com/sbelharbi/sr-caco-2/releases/tag/v1.0.0)
-
 
 <p align="center"><img src="doc/patch-demo.png" alt="outline" width="80%"></p>
 
