@@ -27,33 +27,33 @@ Canada
 
 
 ## Abstract
-Confocal fluorescence microscopy is one of the most accessible and widely used 
-imaging techniques for the study of biological processes at the cellular and 
-subcellular levels. Scanning confocal microscopy allows the capture of 
-high-quality images from thick three-dimensional (3D) samples, yet suffers from 
-well-known limitations such as photobleaching and phototoxicity of specimens 
-caused by intense light exposure, which limits its use in some applications, 
-especially for living cells. Cellular damage can be alleviated by changing 
-imaging parameters to reduce light exposure, often at the expense of image 
-quality. Machine/deep learning methods for single-image super-resolution 
-(SISR) can be applied to restore image quality by upscaling lower-resolution 
-(LR) images to produce high-resolution images (HR). These SISR methods have 
-been successfully applied to photo-realistic images due partly to the abundance 
-of publicly available datasets. In contrast, the lack of publicly available 
-data partly limits their application and success in scanning confocal 
-microscopy. In this paper, we introduce a large scanning confocal microscopy 
-dataset named SR-CACO-2 that is comprised of low- and high-resolution image pairs 
-marked for three different fluorescent markers. It allows to evaluate the 
-performance of SISR methods on three different upscaling levels 
-(X2, x34, x8). SR-CACO-2 contains the human epithelial cell line Caco-2 
-(ATCC HTB-37), and it is composed of 2,200 unique images, captured with four 
-resolutions and three markers, that have been translated in the form of 9,937 
-patches for experiments with SISR methods. Given the new SR-CACO-2 dataset, 
-we also provide benchmarking results for 16 state-of-the-art methods that are 
-representative of the main SISR families. Results show that these methods have 
-limited success in producing high-resolution textures, indicating that SR-CACO-2 
-represents a challenging problem. The dataset is released under a Creative 
-Commons license (CC BY-NC-SA 4.0), and it can be accessed freely. Our dataset, 
+Confocal fluorescence microscopy is one of the most accessible and widely used
+imaging techniques for the study of biological processes at the cellular and
+subcellular levels. Scanning confocal microscopy allows the capture of
+high-quality images from thick three-dimensional (3D) samples, yet suffers from
+well-known limitations such as photobleaching and phototoxicity of specimens
+caused by intense light exposure, which limits its use in some applications,
+especially for living cells. Cellular damage can be alleviated by changing
+imaging parameters to reduce light exposure, often at the expense of image
+quality. Machine/deep learning methods for single-image super-resolution
+(SISR) can be applied to restore image quality by upscaling lower-resolution
+(LR) images to produce high-resolution images (HR). These SISR methods have
+been successfully applied to photo-realistic images due partly to the abundance
+of publicly available datasets. In contrast, the lack of publicly available
+data partly limits their application and success in scanning confocal
+microscopy. In this paper, we introduce a large scanning confocal microscopy
+dataset named SR-CACO-2 that is comprised of low- and high-resolution image pairs
+marked for three different fluorescent markers. It allows to evaluate the
+performance of SISR methods on three different upscaling levels
+(X2, x34, x8). SR-CACO-2 contains the human epithelial cell line Caco-2
+(ATCC HTB-37), and it is composed of 2,200 unique images, captured with four
+resolutions and three markers, that have been translated in the form of 9,937
+patches for experiments with SISR methods. Given the new SR-CACO-2 dataset,
+we also provide benchmarking results for 16 state-of-the-art methods that are
+representative of the main SISR families. Results show that these methods have
+limited success in producing high-resolution textures, indicating that SR-CACO-2
+represents a challenging problem. The dataset is released under a Creative
+Commons license (CC BY-NC-SA 4.0), and it can be accessed freely. Our dataset,
 code and pretrained weights for SISR methods are publicly available
 : https://github.com/sbelharbi/sr-caco-2.
 
@@ -62,7 +62,7 @@ code and pretrained weights for SISR methods are publicly available
 ## Citation:
 ```
 @inproceedings{belharbi24-sr-caco-2,
-  title={SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution},
+  title={{SR-CACO-2}: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution},
   author={Belharbi, S. and Whitford, M.K.M. and Hoang, P. and Murtaza, S. and McCaffrey, L. and Granger, E.},
   booktitle={NeurIPS},
   year={2024}
@@ -243,12 +243,12 @@ dataset" width="80%"></p>
 <p align="center"><img src="doc/prediction.png" alt="SR predictions for
 SR-CACO-2 dataset" width="80%"></p>
 
-<p align="center"><img src="doc/cell-segmentation.png" alt="Cell 
+<p align="center"><img src="doc/cell-segmentation.png" alt="Cell
 segmentation over scaled images using SISR methods over
 SR-CACO-2 dataset" width="80%"></p>
 
-<p align="center"><img src="doc/cell-detection.png" alt="CEll detection 
+<p align="center"><img src="doc/cell-detection.png" alt="CEll detection
 performance over SR-CACO-2 dataset" width="80%"></p>
 
-<p align="center"><img src="doc/under-over-cell-segmentation.png" 
+<p align="center"><img src="doc/under-over-cell-segmentation.png"
 alt="Under/over cell segmentation performance over SR-CACO-2 dataset" width="80%"></p>
