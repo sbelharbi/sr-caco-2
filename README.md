@@ -86,7 +86,9 @@ ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL LICENSE (CC BY-NC-SA 4.0)
 
 <p align="center"><img src="doc/LICENSE.png" alt="outline" width="10%"></p>
 
-**[SR-CACO-2 download link](https://bit.ly/sr-caco-2)**.
+Please accept the security certificate on your internet browser before proceeding.
+The server is safe. It is hosted at ETS university:
+**[SR-CACO-2 download link](https://142.137.245.13/index.php/s/aCTfLWwS3rNeFNY)**.
 
 
 
